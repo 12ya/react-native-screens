@@ -84,7 +84,7 @@ open class ScreenFragment : Fragment {
     }
 
     private class ScreensFrameLayout(
-        context: Context,
+        context: Context
     ) : FrameLayout(context) {
         /**
          * This method implements a workaround for RN's autoFocus functionality. Because of the way
